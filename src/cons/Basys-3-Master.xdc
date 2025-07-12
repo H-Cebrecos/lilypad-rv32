@@ -8,7 +8,7 @@ set_property -dict { PACKAGE_PIN W5   IOSTANDARD LVCMOS33 } [get_ports clk_base]
 create_clock -add -name sys_clk_pin -period 10.00 -waveform {0 5} [get_ports clk_base]
 
 set_false_path -to [get_ports {led[*]}]
-set_false_path -from [get_ports {btnC}]
+set_false_path -from [get_ports {async_reset}]
 
 
 #set_output_delay -max 10 -clock [get_clocks clk_out1_clk_wiz_0] [get_ports {seg[*]}]
