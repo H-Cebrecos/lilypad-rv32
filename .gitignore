@@ -1,0 +1,12 @@
+*.elf
+*.o
+*.bin
+*.map 
+*.uf2
+
+src/ip/*/*
+!src/ip/*/*.xci
+
+!vivado/
+vivado/*
+!vivado/rebuild.tcl
