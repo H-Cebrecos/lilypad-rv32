@@ -30,7 +30,7 @@ SECTIONS
         /* bootloader stack */
         .padding : ALIGN(4)
         {
-                . = (LENGTH(RAM) + ORIGIN(RAM)) - 524;
+                . = (LENGTH(RAM) + ORIGIN(RAM)) - 524; /* This value is the estimated size of the .data and .bss sections combined */
                 __stack_top = .;
         } > RAM
 
