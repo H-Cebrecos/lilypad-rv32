@@ -47,4 +47,4 @@ The same as the software but you call make_boot_rom.sh instead, the output is th
 
 ## Programming the core
 
-To program the processor connect to the UART acording to your constraints file (in this case RX: JB1 TX: JB2 on the basys PMods) the configuration is 8N1 @ 115200, then transmit the uf2 file through the UART.
+To program the system connect to the UART acording to your constraints file (in this case RX: JB1 TX: JB2 on the basys PMods) the configuration is 8N1 @ 115200, then transmit the uf2 file through the UART.
