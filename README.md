@@ -1,7 +1,7 @@
 # lilypad-rv32
 An FPGA implementation of a RISC-V 32-bit processor.
 
-This project was developed for the Basys 3 board, but it should be trivial to port it to other AMD FPGAs and not to difficult to port to other vendors.
+This project was developed for the Basys 3 board, but it should be trivial to port it to other AMD FPGAs and not too difficult to port to other vendors.
 
 ## File structure
     lilypad-rv32
